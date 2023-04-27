@@ -1,0 +1,19 @@
+{
+  "name": "jme-geopass",
+  "version": "1.0.0",
+  "description": "Quickly deployable reverse proxy to circumvent erroneous country bans on JME ips",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Riccardo Balbo",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "escape-string-regexp": "^5.0.0",
+    "express": "^4.18.2",
+    "geoip-lite": "^1.4.7",
+    "http-proxy": "^1.18.1",
+    "http-proxy-middleware": "^2.0.6"
+  },
+  "type": "module"
+}
